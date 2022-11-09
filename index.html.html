@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Singing Information Tong
+</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" type="text/css" href="dd.css">
+  <link rel="stylesheet" type="text/css" href="menubar.css">
+  <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+<link rel="stylesheet"  href="pagination.css">
+<head>
+<center>
+  <header>
+     <style type="text/css">
+  #sidebar{
+  margin:0 auto;
+  font-family: sans-serif;
+   position: fixed;
+   width: 200px;
+   height: 100px;
+   background: green;
+   left: -300px;
+   transition: all .35s linear;
+  }
+  #sidebar.active{
+   left:250px;
+
+  }
+  #sidebar ul li{
+  width: 200px;
+   color: rgba(230,230,230,0.9);
+   list-style: none;
+   padding: 10px 30px;
+   border-bottom: 1px solid rgba(100,100,100,0.3);
+  }
+  #sidebar .toggle-btn{
+
+   position: fixed;
+   left: 470px;
+   top: 80px;
+  }
+  #sidebar .toggle-btn span{
+   display: block;
+   width: 30px;
+   height: 5px;
+   background: green;
+   margin: 5px 0px;
+
+  }
+  
+ </style>
+ <script type="text/javascript">
+  function toggleSidebar(){
+   document.getElementById("sidebar").classList.toggle('active');
+  }
+ </script>
+<style type="text/css">
+  body{
+    width: 980px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #FFFFB3;
+  }
+  .img{margin-bottom: -50px;
+    padding: 50px 20px 0px 0px; 
+    margin-right: auto;
+  }
+  .b{
+    background: white;
+  }
+
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+  <div class="b">
+  <header>
+  <div class="img"> <img src="logo.jpg" alt="싱싱정보통" height="70" width="130"></div>
+ <div id="sidebar">
+  <div class="toggle-btn" onclick="toggleSidebar()"><a>
+   <span></span>
+   <span></span>
+   <span></span>
+  </a>
+  </div>
+  <ul>
+   <li><a href="login.html" target="_blank">로그인</a></li>
+   <li>회원가입</li>
+   <li>장바구니</li>
+   <li>마이페이지</li>
+   <li>커뮤니티</li>
+   <li>구매후기</li>
+   <li>상품Q&A</li>
+  </ul>
+ </div>
+  </header>
+  <div class="menu"></div>
+<nav class="nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">거창</a>
+      <ul>
+        <li><a href="#">HTML 5</a></li>
+        <li><a href="#">CSS 3</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+    </li>
+    <li><a href="#">사천</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+      <li><a href="#">진주</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    <li><a href="#">의령</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    <li><a href="#">함안</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+      <li><a href="#">고성</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+    </ul>
+    <li><a href="#">통영</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    <li><a href="#">거제</a>
+    <ul>
+                <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+</nav>
+<hr>
+<h2 class="w3-center">주요 이벤트</h2>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="j1.jpg" style="width:100%  ">
+  <img class="mySlides" src="j2.jpg" style="width:100% ">
+  <img class="mySlides" src="j3.jpg" style="width:100% ">
+  <img class="mySlides" src="map.png" style="width:50% ">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <div>
+
+
+<hr>
+<h1 style="text-align: center;">WEEKLY BEST</h1>
+<p><h2 style="text-align: center;">한 주간의 인기상품 TOP3!</h2></p><br><hr><br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img1.jpg">
+      <img src="img1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">함안 몽돌빵</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img2.jpg">
+      <img src="img2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">함안 수박</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img6.jpg">
+      <img src="img6.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">A밀양 얼음골 사과</div>
+  </div>
+</div>
+<br>
+<hr><br><h1 style="text-align: center;">지역별 특산물</h1>
+<p><h2 style="text-align: center;">한 주간의 인기상품 TOP3!</h2></p><br><hr><br>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img3.png">
+      <img src="img3.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">거제도 배추 1포기당 6000원</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img4.png">
+      <img src="img4.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">함안 시레기 1kg당 8000원 </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img5.png">
+      <img src="img5.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc"> 진주 김치 반포기 당 6500원</div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+<div class="paginate">
+  <a href="#" class="prev">이전페이지</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <strong>5</strong>
+  <a href="#">6</a>
+  <a href="#">7</a>
+  <a href="#">8</a>
+  <a href="#">9</a>
+  <a href="#">10</a>
+  <a href="#" class="next">다음페이지</a>
+</div>
+</div>
+</div>
+</div>
+</center>
+</section>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body></html>

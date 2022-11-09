@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="메뉴바.css">
+	</head>
+<body>
+	<header>
+		 <style type="text/css">
+
+  #sidebar{
+  font-family: sans-serif;
+   position: fixed;
+   width: 400px;
+   height: 100px;
+   background: green;
+   left: -400px;
+   transition: all 500ms linear;
+  }
+  #sidebar.active{
+   left:0px;
+  }
+  #sidebar ul li{
+  width: 300px;
+   color: rgba(230,230,230,0.9);
+   list-style: none;
+   padding: 30px 50px;
+   border-bottom: 1px solid rgba(100,100,100,0.3);
+  }
+  #sidebar .toggle-btn{
+
+   position: fixed;
+   left: 420px;
+   top: 260px;
+  }
+  #sidebar .toggle-btn span{
+   display: block;
+   width: 30px;
+   height: 5px;
+   background: green;
+   margin: 5px 0px;
+  }
+ </style>
+ <script type="text/javascript">
+  function toggleSidebar(){
+   document.getElementById("sidebar").classList.toggle('active');
+  }
+ </script>
+</head>
+<body>
+ <div id="sidebar">
+  <div class="toggle-btn" onclick="toggleSidebar()"><a>
+   <span></span>
+   <span></span>
+   <span></span>
+  </a>
+  </div>
+  <ul>
+   <li><a href="login.html" target="_blank">로그인</a></li>
+   <li>회원가입</li>
+   <li>장바구니</li>
+   <li>마이페이지</li>
+   <li>커뮤니티</li>
+   <li>구매후기</li>
+   <li>상품Q&A</li>
+  </ul>
+ </div>
+	</header>
+	<div class="menu"></div>
+<nav class="nav">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">거창</a>
+			<ul>
+				<li><a href="#">HTML 5</a></li>
+				<li><a href="#">CSS 3</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</li>
+		<li><a href="#">사천</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+	    <li><a href="#">진주</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+		<li><a href="#">의령</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+		<li><a href="#">함안</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+	    <li><a href="#">고성</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+		</ul>
+		<li><a href="#">통영</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+		<li><a href="#">거제</a>
+		<ul>
+                <li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ul>
+</nav>
+
+
+</body>
+</html>

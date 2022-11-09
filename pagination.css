@@ -1,0 +1,42 @@
+.paginate{
+padding: 20px 0;
+text-align: center;	
+}
+.paginate a,
+.paginate strong{
+	display: inline-block;
+	padding: 4px 3px;
+	border: 1px	solid transparent;
+	color: #666;
+	text-decoration: none;
+	position: relative;
+	min-width: 19px;
+	margin-right: 1px;
+	font-family: tahoma,'굴림',gulim,sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	vertical-align: top;
+}
+.paginate strong{
+	border-color: #4dc136;
+	color: #1eb501;
+}
+.paginate .prev:hover,
+.paginate .next:hover{
+	text-decoration: underline;
+}
+
+.paginate .prev,
+.paginate .next{
+	border-color: #e9e9e9;
+	line-height: 12px;
+	font-weight: 400;
+}
+.paginate .prev {
+	margin-right: 8px;
+	padding: 9px 5px 6px 17px;
+}
+.paginate .next {
+	margin-left: : 7px;
+	padding: 9px 16px 6px 6px;
+}
